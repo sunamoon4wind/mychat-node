@@ -3,7 +3,7 @@
 https://www.hiramine.com/programming/chat_nodejs_socketio/index.html
 
 ●デプロイ
-https://qiita.com/shti_f/items/b4b5d830672d908eff4e
+https://garafu.blogspot.com/2018/12/deploy-nodejs-webapp-on-herok.html
 
 サーバー起動
 node server.js
