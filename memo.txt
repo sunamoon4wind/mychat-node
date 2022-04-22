@@ -1,0 +1,14 @@
+サーバー起動
+node server.js
+
+アクセス
+localhost:1337
+
+
+gitへのアップロード（push）-----------------------------------------------
+・「git init」でgitと連携する。
+・githubのサイトで新しいリモートリポジトリを作成する。
+・「git add .」でインデックスにアドする。
+・「git commit -m “first commit”」でコミットする
+・「git remote add origin https://github.com/sunamoon4wind/mysite2204-2.git」でリモートリポジトリにアドする。
+・「git push origin master」でリモートリポジトリにプッシュする。
