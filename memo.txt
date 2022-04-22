@@ -4,6 +4,7 @@ https://www.hiramine.com/programming/chat_nodejs_socketio/index.html
 
 ●デプロイ
 https://garafu.blogspot.com/2018/12/deploy-nodejs-webapp-on-herok.html
+https://keruuweb.com/node-js%E3%82%A2%E3%83%97%E3%83%AA%E3%82%92heroku%E3%81%AB%E3%83%87%E3%83%97%E3%83%AD%E3%82%A4%E3%81%99%E3%82%8B/
 
 サーバー起動
 node server.js
@@ -20,10 +21,14 @@ gitへのアップロード（push）-------------------------------------------
 ・「git remote add origin https://github.com/sunamoon4wind/mychat-node.git」でリモートリポジトリにアドする。
 ・「git push origin master」でリモートリポジトリにプッシュする。
 
+以下不要！！！
+--------------
 デプロイ可能なサンプルアプリをクローンします。
 $ git clone https://github.com/heroku/node-js-getting-started.git
 $ cd node-js-getting-started
+--------------
 
 $ heroku create mychat-node-2204 ※すでに作成されている名前はNG
 $ git push heroku main  ※git push heroku masterの場合もあり、なぜかは不明
 $ heroku ps:scale web=1
+heroku open
