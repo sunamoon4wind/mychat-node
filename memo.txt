@@ -32,3 +32,14 @@ $ heroku create mychat-node-2204 ※すでに作成されている名前はNG
 $ git push heroku main  ※git push heroku masterの場合もあり、なぜかは不明
 $ heroku ps:scale web=1
 heroku open
+
+エラー！！！
+
+
+heroku restart -app mychat-node-2204
+heroku ps
+heroku restart web.1
+⇒×
+
+ heroku run console
+
